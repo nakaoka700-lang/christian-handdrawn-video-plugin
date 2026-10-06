@@ -1,0 +1,20 @@
+{
+  "name": "christian-handdrawn-video",
+  "version": "1.0.0",
+  "description": "Create polished Chinese Christian hand-drawn narrative videos from narration, SRT subtitles, and optional visual references.",
+  "author": {"name": "Zhang Mengyue", "url": "https://github.com/nakaoka700-lang"},
+  "homepage": "https://github.com/nakaoka700-lang/christian-handdrawn-video-plugin",
+  "repository": "https://github.com/nakaoka700-lang/christian-handdrawn-video-plugin",
+  "license": "MIT",
+  "keywords": ["christian", "video", "remotion", "chinese", "illustration", "captions"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "基督教中文手绘视频",
+    "shortDescription": "从配音和 SRT 制作精细中文手绘叙事视频",
+    "longDescription": "使用 GPT 插画、严格审批门、英雄字幕、自然场景运动和 Remotion 预览优先工作流，制作可编辑的基督教中文手绘叙事视频。",
+    "developerName": "Zhang Mengyue",
+    "category": "Productivity",
+    "capabilities": ["Write"],
+    "defaultPrompt": ["使用 $create-christian-handdrawn-video 根据当前文件夹中的配音、SRT 和参考图制作中文手绘视频。"]
+  }
+}

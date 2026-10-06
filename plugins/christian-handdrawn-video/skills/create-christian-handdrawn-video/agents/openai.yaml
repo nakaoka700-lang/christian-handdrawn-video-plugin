@@ -1,0 +1,4 @@
+interface:
+  display_name: "基督教精细手绘视频"
+  short_description: "使用GPT精细插画与多元字幕动效制作基督教叙事视频"
+  default_prompt: "使用 $create-christian-handdrawn-video 根据当前文件夹中的音频、SRT 和参考图制作精细手绘视频。"
